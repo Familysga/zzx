@@ -7,7 +7,7 @@ from AlexaMusic.core.call import Alexa
 from AlexaMusic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
 
-@app.on_message(filters.regex("^مين في الكول$"))
+@app.on_message(filters.regex("^مين في التصال$"))
 async def strcall(client, message):
     assistant = await group_assistant(Alexa,message.chat.id)
     try:
