@@ -75,10 +75,10 @@ async def dowhmo(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "قناة السورس", url=f"https://t.me/Source_Ze"),
+                        "قناة السورس", url=f"https://t.me/A1DIIU"),
                 ],[
                     InlineKeyboardButton(
-                        "• ضيفني لقروبك 🎻", url=f"https://t.me/ze7hbot?startgroup=true"),
+                        "• ضيفني لقروبك 🎻", url=f"https://t.me/Xurtbot?startgroup=true"),
                 ],
             ]
         ),
