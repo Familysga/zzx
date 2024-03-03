@@ -28,7 +28,7 @@ def song_markup(_, vidid):
         [
             InlineKeyboardButton(
                 text="‹ السورس ›",
-                url="https://t.me/Source_Ze",
+                url="https://t.me/A1DIIU",
             ),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ],
