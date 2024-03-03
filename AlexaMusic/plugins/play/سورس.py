@@ -100,7 +100,7 @@ async def khalid(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗥𝗨𝗡𝗧𝗛𝗢𝗡 . 🐰 ›", url=f"https://t.me/xLxLxLrr3"),
+                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝐋𝐈𝐓𝐇𝐎𝐍 . 🐰 ›", url=f"https://t.me/A1DIIU"),
                 ],
             ]
         ),
@@ -118,10 +118,10 @@ async def khalid(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton("‹ اضف البوت مجموعتك ›", url=f"https://t.me/A_Rn_obot?startgroup=true"),
+                InlineKeyboardButton("‹ اضف البوت مجموعتك ›", url=f"https://t.me/Xurtbot?startgroup=true"),
                 ],[
                 InlineKeyboardButton(
-                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗥𝗨𝗡𝗧𝗛𝗢𝗡 . 🐰 ›", url=f"https://t.me/xLxLxLrr3"), 
+                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝐋𝐈𝐓𝐇𝐎𝐍 . 🐰 ›", url=f"https://t.me/A1DIIU"), 
                 ]
             ]
         ),
@@ -142,7 +142,7 @@ async def khalid(client: Client, message: Message):
                 InlineKeyboardButton("‹ اضف البوت مجموعتك ›", url=f"https://t.me/A_Rn_obot?startgroup=true"),
                 ],[
                 InlineKeyboardButton(
-                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗥𝗨𝗡𝗧𝗛𝗢𝗡 . 🐰 ›", url=f"https://t.me/xLxLxLrr3"), 
+                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝐋𝐈𝐓𝐇𝐎𝐍 . 🐰 ›", url=f"https://t.me/A1DIIU"), 
                 ]
             ]
         ),
@@ -163,7 +163,7 @@ async def khalid(client: Client, message: Message):
                 InlineKeyboardButton("‹ اضف البوت مجموعتك ›", url=f"https://t.me/A_Rn_obot?startgroup=true"),
                 ],[
                 InlineKeyboardButton(
-                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗥𝗨𝗡𝗧𝗛𝗢𝗡 . 🐰 ›", url=f"https://t.me/xLxLxLrr3"), 
+                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝐋𝐈𝐓𝐇𝐎𝐍 . 🐰 ›", url=f"https://t.me/A1DIIU"), 
                 ]
             ]
         ),
@@ -184,7 +184,7 @@ async def khalid(client: Client, message: Message):
                 InlineKeyboardButton("‹ اضف البوت مجموعتك ›", url=f"https://t.me/A_Rn_obot?startgroup=true"),
                 ],[
                 InlineKeyboardButton(
-                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗥𝗨𝗡𝗧𝗛𝗢𝗡 . 🐰 ›", url=f"https://t.me/xLxLxLrr3"), 
+                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝐋𝐈𝐓𝐇𝐎𝐍 . 🐰 ›", url=f"https://t.me/A1DIIU"), 
                 ]
             ]
         ),
@@ -218,7 +218,7 @@ async def khalid(client: Client, message: Message):
                 InlineKeyboardButton("‹ ժᥱ᥎ ˛ َِ𝗔َِ𝗹َِ𝘀َِ𝗵 .¹# ›", url=f"https://t.me/BxxBxxL"),
                 ],[
                 InlineKeyboardButton(
-                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗥𝗨𝗡𝗧𝗛𝗢𝗡 . 🐰 › ", url=f"https://t.me/xLxLxLrr3"), 
+                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝐋𝐈𝐓𝐇𝐎𝐍 . 🐰 ›", url=f"https://t.me/A1DIIU"), 
                 ]
             ]
         ),
@@ -252,7 +252,7 @@ async def khalid(client: Client, message: Message):
                 InlineKeyboardButton("‹ ժᥱ᥎ ˛ َِ𝗔َِ𝗹َِ𝘀َِ𝗵 .¹# ›", url=f"https://t.me/BxxBxxL"),
                 ],[
                 InlineKeyboardButton(
-                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗥𝗨𝗡𝗧𝗛𝗢𝗡 . 🐰 ›", url=f"https://t.me/xLxLxLrr3"), 
+                        "‹ 𝗦𝗢𝗨𝗥𝗖𝗘 𝐋𝐈𝐓𝐇𝐎𝐍 . 🐰 ›", url=f"https://t.me/A1DIIU"),  
                 ]
             ]
         ),
