@@ -9,10 +9,10 @@ async def arbic(_, query: CallbackQuery):
     await query.answer("home start")
     await query.edit_message_text(
         f""" 🔱**[مرحبا بك] [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) ! \n
-※ [انا بوت تشغيل الأغاني والفيديو  في المكالمه المرئية](https://t.me/Source_Ze) \n
-※[لاظهار كيبورد الاعضاء اضغط](https://t.me/Source_Ze) /ZE \n
-※ [في حال مواجهه اي مشكله انضم هنا](https://t.me/Source_Ze)\n [🔱 𝐒𝐎𝐔𝐑𝐂𝐄 𝐙𝐄 🔱](https://t.me/Source_Ze)
-※ [استخدم الازرار لمعرفه الاوامر المستخدمه.](https://t.me/Source_Ze) """,
+※ [انا بوت تشغيل الأغاني والفيديو  في المكالمه المرئية](https://t.me/A1DIIU) \n
+※[لاظهار كيبورد الاعضاء اضغط](https://t.me/A1DIIU) /ZE \n
+※ [في حال مواجهه اي مشكله انضم هنا](https://t.me/A1DIIU)\n [𝐋𝐈𝐓𝐇𝐎𝐍](https://t.me/A1DIIU)
+※ [استخدم الازرار لمعرفه الاوامر المستخدمه.](https://t.me/A1DIIU) """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -21,21 +21,21 @@ async def arbic(_, query: CallbackQuery):
                         url=f"https://t.me/{app.username}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("الدعم والتواصل", url=f"https://t.me/ZeSupport"),
+                [InlineKeyboardButton("الدعم والتواصل", url=f"https://t.me/Xurtbot"),
                 
-InlineKeyboardButton("لتفعيل كيبورد الاعضاء", callback_data="ze"),
+InlineKeyboardButton("لتفعيل كيبورد الاعضاء", callback_data="sa"),
                 ],
                 [                   InlineKeyboardButton("طريقة التشغيل", callback_data="bcmds"),
                     InlineKeyboardButton("طريقة التفعيل", callback_data="bhowtouse"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ السورس ›", url=f"https://t.me/Source_Ze"
+                        "‹ السورس ›", url=f"https://t.me/A1DIIU"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ المطور ›", url="https://t.me/ELHYBA"
+                        "‹ المطور ›", url="https://t.me/S_1_02"
                     )
                 ],
             ]
@@ -58,15 +58,15 @@ async def english(_, query: CallbackQuery):
                 ],
                 [InlineKeyboardButton(" Basic Guide", callback_data="cbhowtouse"),
                 
-InlineKeyboardButton(" member keyboard ", callback_data="Source_Ze"),
+InlineKeyboardButton(" member keyboard ", callback_data="A1DIIU"),
                 ],
                 [                
                     InlineKeyboardButton(" Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton(" Donate", url=f"https://t.me/Source_Ze"),
+                    InlineKeyboardButton(" Donate", url=f"https://t.me/A1DIIU"),
                 ],
                 [
                     InlineKeyboardButton(
-                        " DEVELOPER ", url="https://t.me/ELHYBA"
+                        " DEVELOPER ", url="https://t.me/S_1_02"
                     )
                 ],
             ]
@@ -93,7 +93,7 @@ async def cbguides(_, query: CallbackQuery):
         ),
     )
 
-@Client.on_callback_query(filters.regex("Source_Ze"))
+@Client.on_callback_query(filters.regex("A1DIIU"))
 async def cbguides(_, query: CallbackQuery):
     await query.answer("user guide")
     await query.edit_message_text(
@@ -113,7 +113,7 @@ async def cbcmds(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""🥹♥ **Hello [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**
 » **press the button below to read the explanation and see the list of available commands !**
-√ __Powered by 𝐒𝐎𝐔𝐑𝐂𝐄 𝐙𝐄 🐉 """,
+√ __Powered by 𝐋𝐈𝐓𝐇𝐎𝐍 🐉 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -278,7 +278,7 @@ async def acbadmin(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("ze"))
 async def acbadmin(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""※ مرحبا بك \n ※ لتفعيل كيبورد الاعضاء ارسل /MODY \n ※ لتفعيل كيبورد التسليه ارسل /ZE""",
+        f"""※ مرحبا بك \n ※ لتفعيل كيبورد الاعضاء ارسل /salam \n ※ لتفعيل كيبورد التسليه ارسل /sa""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("العودة", callback_data="bcmds")]]
         ),
