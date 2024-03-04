@@ -1,7 +1,7 @@
 {
-    "name": "🔱 𝐒𝐎𝐔𝐑𝐂𝐄 𝐙𝐄 🔱",
-    "description": "زد إي ميوزك افضل السورسات العربيه.",
-    "logo": "https://telegra.ph/file/c4f9c850312c8891385a9.jpg",
+    "name": "𝐋𝐈𝐓𝐇𝐎𝐍",
+    "description": "ليثون  ميوزك افضل السورسات العربيه.",
+    "logo": "https://telegra.ph/file/bd4a8c4bf9ad5f107a3d3.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -30,7 +30,7 @@
       },
       "START_IMG_URL": {
         "description": "صورة الستارت",
-        "value": "https://telegra.ph/file/911a6335a2e3c796659b1.jpg",
+        "value": "https://telegra.ph/file/bd4a8c4bf9ad5f107a3d3.jpg",
         "required": true
       },
       "OWNER_ID": {
