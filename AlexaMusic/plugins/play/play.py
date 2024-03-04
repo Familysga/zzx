@@ -34,7 +34,7 @@ force_btn = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(   
-              text=f"{YAFA_NAME}", url=f"{YAFA_CHANNEL}",)                        
+              text=f"اضغط للأشتراك .", url=f"t.me/A1DIIU",)                        
         ],        
     ]
 )
@@ -44,7 +44,7 @@ async def check_is_joined(message):
         status = await app.get_chat_member(f"{CHANNEL_SUDO}", userid)
         return True
     except Exception:
-        await message.reply_text("**◇︰ عذرا، عليك الانضمام الى قناة البوت أولاً :**",reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
+        await message.reply_text(f'❤️‍🩹┇عزيزي: {message.from_user.mention}\n🫀┇أشتࢪك في قناة البوت أولاً.\n🚧┇قناة البوت: @A1DIIU 🫂',reply_markup=force_btn,disable_web_page_preview=False)
         return False
 
 # Command
