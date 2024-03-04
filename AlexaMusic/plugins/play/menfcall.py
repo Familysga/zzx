@@ -7,7 +7,7 @@ from AlexaMusic.core.call import Alexa
 from AlexaMusic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError)
 
-@app.on_message(filters.regex("مين في الكول"))
+@app.on_message(filters.regex("مين في التصال"))
 async def strcall(client, message):
     assistant = await group_assistant(Alexa,message.chat.id)
     try:
@@ -29,7 +29,7 @@ async def strcall(client, message):
         await asyncio.sleep(5)
         await assistant.leave_group_call(message.chat.id)
     except NoActiveGroupCall:
-        await message.reply(f"عمووووو الكول مش مفتوح اصلااا\n❌")
+        await message.reply(f"عمووووو التصال مش مفتوح اصلااا\n❌")
     except TelegramServerError:
         await message.reply(f"ارسل الامر تاني في مشكله في سيرفر التلجرام\n❌")
         
