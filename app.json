@@ -1,7 +1,7 @@
 {
-    "name": "𝐋𝐈𝐓𝐇𝐎𝐍",
-    "description": "ليثون  ميوزك افضل السورسات العربيه.",
-    "logo": "https://telegra.ph/file/bd4a8c4bf9ad5f107a3d3.jpg",
+    "name": "Alexa Music",
+    "description": "Deploy Alexa music on railwey make sure to star the projecte.",
+    "logo": "https://telegra.ph/file/ba967503682a55beaedd3.png",
     "keywords": [
     "python3",
     "telegram",
@@ -14,69 +14,48 @@
     "stack": "container",
     "env": {
       "API_ID": {
-        "description": "الايبي ايدي حط ",
-        "value": "25281175",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "الايبي هاش حط",
-        "value": "6d99cb2b60a2c519fc1f99bd19565730",
-        "required": true          
-      },
-      "BOT_TOKEN": {
-        "description": "توكن البوت حبببي",
+        "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
       },
-      "START_IMG_URL": {
-        "description": "صورة الستارت",
-        "value": "https://telegra.ph/file/bd4a8c4bf9ad5f107a3d3.jpg",
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
-        "description": "حط ايدي المالك",
-        "value": "6581896306",
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "value": "5303133436",
         "required": true
       },        
       "MONGO_DB_URI": {
-        "description": "كود المونجو حب",
-        "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority",
-        "required": true
-          },
-      "MUSIC_BOT_NAME": {
-        "description": "اسم بوتك بالعربي",
-        "value": "مارسلين",
+        "description": "Mongo DB URL",
+        "value": "",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "جلسه بايروجرام واحد فقط",
+        "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
         "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "ضع مفتاح هيروكو - https://dashboard.heroku.com/account",
-        "value": "4923b694-7ef2-4c61-b305-4577ecd151a8",
+        "description": "Your Heroku account's API key",
+        "value": "",
         "required": false
       },
-      "ASS_US": {
-        "description": "يوزر حساب المساعد",
-        "value": "@u_iub",
-        "required": false
-      },
-      "ASS_ID": {
-        "description": "ايدي حساب المساعد",
-        "value": "6917691038",
-        "required": false
-      },
-
       "HEROKU_APP_NAME": {
-        "description": "اسم التطبيق اول فار",
+        "description": "Your heroku app name",
         "value": "",
         "required": false
       },
       "LOG_GROUP_ID": {
-        "description": "ايدي كروب السجل حطه",
-        "value": "-1002015543535",
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
+        "value": "",
         "required": true
       }
     },
@@ -85,10 +64,7 @@
               "url": "heroku/python"
           },
           {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+              "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview.git"
           }
       ],
       "stack": "container"
